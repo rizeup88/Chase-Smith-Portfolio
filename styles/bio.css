@@ -191,7 +191,7 @@ html, body{
   .biography .bio-box {
   width: 100%;
   margin: 1 auto;
- }
+  }
 }
 
 @media screen and (min-width: 1110px){
