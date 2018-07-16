@@ -1,0 +1,465 @@
+html, body{
+   overflow-x: hidden;
+ }
+ body {
+   font-family: "Ubuntu", Arial, Helvetica, sans-serif;
+   color:#333333;
+   margin:0;
+   max-width: 100%;
+   height: auto;
+ }
+ body img {
+   float: right;
+   position: absolute;
+   max-width: 20%; 
+   height: auto;
+   margin-left: 25px;
+   margin-top: 25px;
+ }
+
+ h2, h3, h4, h5, h6 {
+   font-family: "Audiowide", Arial, Helvetica, sans-serif;
+ }
+
+ h1 {
+   font-family: "Ubuntu";
+   font-size: 36px;
+   font-weight: 600;
+   text-align: left;
+   color: #00274e;
+ }
+
+ h2 {
+   font-size:28px;
+   font-weight: normal;
+   margin-bottom: 5px;
+ }
+
+ p {
+   font-family:"Ubuntu";
+   color: #00274e; 
+   font-size:18px;
+   line-height: 19px;
+   font-weight: 400;
+ }
+
+ .container {
+   z-index: 1;
+   position:fixed;
+   background-color: #FFFFFF;
+   top:-10px;
+   right:-10px;
+   width:100%;
+   padding:15px;
+ }
+
+ @media screen and (min-width: 320px) {
+  .container  {
+    position:fixed;
+    max-width: 100%;
+    padding:20px;
+  }
+}
+
+ @media screen and (min-width: 697px) {
+  .container  {
+    position:fixed;
+    max-width: 100%;
+  }
+}
+
+ .container ul {
+   list-style-type: none;
+   text-transform: uppercase;
+   margin: -1;
+   padding:0;
+   overflow: hidden;
+ }
+
+ .container li {
+  display: block;
+  color: #00274e;
+  text-decoration-line: none;
+ }
+
+ @media screen and (min-width: 320px) {
+  .container li {
+    float:right;
+    margin-top:60px;
+    max-width: 100%;
+    margin-right: 8px;
+    padding-right: 0px;
+  }
+}
+
+@media screen and (min-width: 396px) {
+  .container li {
+    margin-top:60px;
+    max-width: 100%;
+    float:right;
+    margin-right: 18px;
+    padding-right: 0px;
+  }
+}
+
+ @media screen and (min-width: 697px) {
+  .container li {
+    margin-top: 12px;
+    max-width: 100%;
+    float:right;
+    margin-right: 18px;
+    padding-right: 0px;
+  }
+}
+
+ .container a {
+  color: #28405C;
+  text-decoration-line: none;
+ }
+
+ .container a:hover {
+  text-decoration-line: underline;
+ }
+
+ .container .site-logo {
+  position:fixed;
+ }
+
+ .container img {
+  position:fixed;
+  min-width: 55%;
+  margin: 0 auto;
+  min-width: 300px;
+  margin-top: 35px;
+  margin-left:36px;
+ }
+
+ @media screen and (min-width: 320px) {
+  .container img  {
+    position:fixed;
+    max-width: 20%;
+    margin-top:10px;
+    margin-left: -30px;
+    left: 13%;
+  }
+}
+
+@media screen and (min-width: 396px) {
+  .container img {
+    position:fixed;
+    max-width: 20%;
+    margin-top:10px;
+    margin-left:25px;
+    left: 0%;
+  }
+}
+
+ @media screen and (min-width: 697px) {
+  .container img {
+    position:fixed;
+    max-width: 20%;
+    margin-top:10px;
+    margin-left:25px;
+    left: 0%;
+  }
+}
+
+@media screen and (min-width: 1110px) {
+  .container img {
+    position:fixed;
+    max-width: 10%;
+    margin-top:10px;
+    margin-left:25px;
+    left: 0%;
+  }
+}
+
+ .contact {
+  background-image: url(../images/Mount_Hood-Contact_Me.png);
+  background-size: cover;
+  background-position: center center;
+  position:relative;
+  width: 100%;
+  padding-top: 4em;
+  padding-bottom: 18em;
+ }
+
+ .contact .header {
+  position:relative;
+  font-family: "Ubuntu";
+  font-size: 36px;
+  font-weight: 600;
+  color: #00274e;
+  width: 100%;
+ }
+
+ @media screen and (min-width: 320px) {
+  .contact .header {
+    margin-top:4.5em;
+    max-width: 100%;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 697px) {
+  .contact .header {
+    margin-top:3em;
+    max-width: 98.5%;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 1174px) {
+  .contact .header {
+    margin-top:3em;
+    max-width: 97%;
+    text-align: center;
+  }
+}
+
+ .contact .desc {
+  position:relative;
+  width: 100%;
+  font-size: 18px;
+ }
+
+
+@media screen and (min-width: 320px) {
+  .contact .desc {
+    max-width: 80%;
+    margin-left: 0.75em;
+    left: 7%;
+    text-align: center;
+ }
+
+ .contact .social {
+  position:relative;
+  display: block;
+  font-size: 38px;
+  width: 100%;
+  float: left;
+  list-style-type: disc;
+ }
+
+ .contact .fa-ul {
+   display: block;
+   list-style-type: none;
+   text-decoration: none;
+   -webkit-margin-before: 1em;
+   -webkit-margin-after: 1em;
+   -webkit-margin-start: 0px;
+   -webkit-margin-end: 0px;
+   -webkit-padding-start: 40px;
+ }
+
+ .contact .fa-ul li {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  margin: 10px;
+ }
+
+ .contact .fa-ul i {
+  font-size: xx-large;
+  margin: 10px 5px;
+  vertical-align: middle;
+  display: inline-block;
+ }
+
+ .contact .fa-ul a {
+  font-family: "Ubuntu";
+  text-decoration: none;
+  font-weight: 400;
+  color: #00274e;
+ }
+
+ @media screen and (min-width: 320px) {
+ .contact .fa-ul {
+  max-width: 100%;
+  margin-left: -0.9em;
+  -webkit-transform: translate(-1.5%, -0%);
+  -moz-transform: translate(-1.5%, -0%);
+  -ms-transform: translate(-1.5%, -0%);
+  -o-transform: translate(-1.5%, -0%);
+  transform: translate(-1.5%, -0%);
+ }
+}
+
+ .contactform {
+  background-color: #f7f8f9;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  padding-top: 3em;
+  padding-bottom: 10em;
+ }
+
+@media screen and (min-width: 320px) {
+ .contactform {
+  margin-bottom: -7em;
+ }
+}
+
+ .contactform .php {
+  color: #00274e;
+  font-family: "Ubuntu";
+  font-weight: 600;
+  font-size: 36px;
+  width: 100%;
+ }
+
+ @media screen and (min-width: 320px) {
+  .contactform .php {
+    margin-top:1em;
+    max-width: 100%;
+    margin-left: 0em;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 697px) {
+  .contactform .php {
+    max-width: 100%;
+    margin-left: 0em;
+    margin-top: 1em;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 1174px) {
+  .contactform .php {
+    max-width: 100%;
+    margin-left: 0em;
+    margin-top: 1em;
+    text-align: center;
+  }
+}
+
+ .contactform iframe {
+  position: relative;
+  width: 100%;
+ }
+
+ @media screen and (min-width: 320px) {
+  .contactform iframe {
+    max-width: 80%;
+    margin-top: 20px;
+    margin-left: 10px;
+    left: 8%;
+  }
+}
+
+@media screen and (min-width: 589px) {
+  .contactform iframe {
+    max-width: 452px;
+    margin-top: 20px;
+    margin-left: 42.25%;
+    -webkit-transform: translate(-53%, -0%);
+    -moz-transform: translate(-53%, -0%);
+    -ms-transform: translate(-53%, -0%);
+    -o-transform: translate(-53%, -0%);
+    transform: translate(-53%, -0%);
+  }
+}
+
+@media screen and (min-width: 697px) {
+  .contactform iframe {
+    max-width: 452px;
+    margin-top: 20px;
+    margin-left: 42.25%;
+    -webkit-transform: translate(-50%, -0%);
+    -moz-transform: translate(-50%, -0%);
+    -ms-transform: translate(-50%, -0%);
+    -o-transform: translate(-50%, -0%);
+    transform: translate(-50%, -0%);
+  }
+}
+
+@media screen and (min-width: 1174px) {
+  .contactform iframe {
+    max-width: 452px;
+    margin-top: 20px;
+    margin-left: 42.25%;
+    -webkit-transform: translate(-50%, -0%);
+    -moz-transform: translate(-50%, -0%);
+    -ms-transform: translate(-50%, -0%);
+    -o-transform: translate(-50%, -0%);
+    transform: translate(-50%, -0%);
+  }
+}
+
+.contactform p {
+  position: relative;
+  width: 100%;
+ }
+
+ @media screen and (min-width: 320px) {
+  .contactform p  {
+    max-width: 80%;
+    margin-top: 4em;
+    margin-left: 1.7em;
+    left: 7%;
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: 697px) {
+  .contactform p  {
+    max-width: 80%;
+    margin-top: 1em;
+    margin-left: -11.5em;
+    left: 50%;
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: 1174px) {
+  .contactform p  {
+    max-width: 80%;
+    margin-top: 1em;
+    margin-left: -11.5em;
+    left: 50%;
+    text-align: left;
+  }
+}
+
+ footer {
+  display: block;
+  position: relative;
+  left:-45px;
+  top:18px;
+}
+
+footer p {
+  z-index: 1;
+  right:0px;
+  left:-25px;
+  width:100%;
+  padding-top:18px;
+  padding-left: 50px;
+  text-transform: uppercase;
+}
+
+ @media screen and (min-width: 320px) {
+  footer p {
+   margin-left: 15px;
+   margin-top:95px;
+   padding-bottom: 20px;
+   text-align: left;
+ }
+
+ @media screen and (min-width: 697px) {
+  footer p {
+   margin-left: 15px;
+   margin-top:95px;
+   padding-bottom: 20px;
+   text-align: left;
+ }
+
+ @media screen and (min-width: 1174px) {
+  footer p {
+   margin-left: 15px;
+   margin-top: 95px;
+   padding-bottom: 20px;
+   text-align: left;
+ }
