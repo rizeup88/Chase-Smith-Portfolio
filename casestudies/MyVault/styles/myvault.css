@@ -145,9 +145,8 @@ html, body{
 
  .container img {
   position:fixed;
-  min-width: 55%;
   margin: 0 auto;
-  min-width: 300px;
+  min-width: 225px;
   margin-top: 35px;
   margin-left:36px;
  }
